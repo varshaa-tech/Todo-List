@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 10px;
+    /* text-align: center; */
+}
+
+body {
+    background-image: linear-gradient(rgb(70, 3, 36), rgb(4, 4, 66));
+    background-size: cover;
+    height: 100vh;
+}
+
+.todolist {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 20px;
+
+    input {
+        width: 300px;
+        height: 20px;
+        font-size: 20px;
+        border: 1px solid white;
+        border-radius: 10px;
+        /* color: aliceblue; */
+        background-color: aliceblue;
+    }
+
+    input:hover {
+        background-color: rgb(202, 214, 225);
+    }
+}
+
+.heading {
+    text-align: center;
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.btn1 {
+    margin-right: 20px;
+    padding: 10px;
+    width: 90px;
+    background-color: rgb(232, 64, 64);
+    border: 0px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    /* opacity: 2px; */
+}
+
+.btn1:hover {
+    /* opacity: 10; */
+    background-color: rgb(235, 42, 42);
+}
+
+.button1 {
+    padding: 10px;
+    width: 90px;
+    background-color: rgb(6, 142, 44);
+    border: 0px;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-left: 250px;
+}
+
+.button2 {
+    margin-left: 20px;
+    padding: 10px;
+    width: 90px;
+    background-color: rgb(141, 13, 81);
+    border: 0px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.todolist2 {
+    display: flex;
+    flex: row;
+    list-style: none;
+    gap: 20px;
+    /* padding: 20px; */
+    margin: 20px;
+    margin-left: 100px;
+    background-color: rgba(0, 10, 19, 0.256);
+    color: aliceblue;
+
+}
+
+.checked {
+    text-decoration: line-through;
+    color: rgb(175, 174, 174);
+}
+
+.todolabel {
+    font-size: 20px;
+    font-family: cursive;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.todolabel2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    width: 200px;
+}
+
+#inbox {
+    list-style: none;
+}
+
+.checkbox {
+    background-color: transparent;
+    margin: 10px;
+    height: 30px;
+    width: 20px;
+}
+
+#img {
+    align-items: center;
+    margin: 0px 500px;
+    height: 200px;
+}
